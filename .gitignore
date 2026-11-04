@@ -218,3 +218,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.tmpclaude*
+.claude/
+
+# Project: cached market-data pulls (reproducible via yfinance)
+data/
+tmpclaude-*/
