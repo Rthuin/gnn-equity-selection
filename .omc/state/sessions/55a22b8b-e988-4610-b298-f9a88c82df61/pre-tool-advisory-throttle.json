@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "entries": {
+    "466399dafa2d20f60587180bad0a07358eb7f2bce724df0ff682f038ad33f5ad": {
+      "last_emitted_at_ms": 1792159520760,
+      "message": "Read multiple files in parallel when possible for faster analysis."
+    },
+    "79a93d4a2f8f50b95f852280616242fee1855dc99a3c75211917f55e72e95fae": {
+      "last_emitted_at_ms": 1792158887478,
+      "message": "Use parallel execution for independent tasks. Use run_in_background for long operations (npm install, builds, tests)."
+    },
+    "1771d4b388bf59326705d31562d5294dd0cac55f6b2a0cdf945c17562cab35fb": {
+      "last_emitted_at_ms": 1792158880261,
+      "message": "Spawning agent: Explore (sonnet) | Task: Explore repo structure and purpose"
+    }
+  },
+  "updated_at": "2026-10-16T14:05:20.760Z"
+}

@@ -223,4 +223,5 @@ __marimo__/
 
 # Project: cached market-data pulls (reproducible via yfinance)
 data/
-tmpclaude-*/
+tmpclaude-*
+.omc/

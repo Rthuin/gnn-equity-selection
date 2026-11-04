@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "cursor": 6,
+  "tickets": [
+    {
+      "sessionId": "0afb2341-1b27-486b-a79b-f8236ba12ad4",
+      "attempts": 0,
+      "retryAt": "2026-10-16T13:54:00.105Z",
+      "claimNonce": "466afb61-1527-4d32-9186-27e4c4c38057",
+      "leaseExpiresAt": "2026-10-30T05:40:11.942Z"
+    },
+    {
+      "sessionId": "4db7583b-0ddb-4709-b6cc-418f9d83f301",
+      "attempts": 0,
+      "retryAt": "2026-10-16T13:58:18.191Z",
+      "acknowledgedAt": "2026-10-16T14:00:00.851Z"
+    },
+    {
+      "sessionId": "55a22b8b-e988-4610-b298-f9a88c82df61",
+      "attempts": 0,
+      "retryAt": "2026-10-16T14:06:41.636Z",
+      "acknowledgedAt": "2026-10-16T14:07:20.464Z"
+    },
+    {
+      "sessionId": "340e8b92-ac48-4e47-a847-87fe75e56a58",
+      "attempts": 0,
+      "retryAt": "2026-10-19T12:41:30.253Z",
+      "acknowledgedAt": "2026-10-19T12:42:09.893Z"
+    },
+    {
+      "sessionId": "0f8c9ea9-a7b1-4afc-b248-727f5150c785",
+      "attempts": 0,
+      "retryAt": "2026-10-19T12:43:32.258Z",
+      "acknowledgedAt": "2026-10-19T12:44:10.778Z"
+    },
+    {
+      "sessionId": "62c7bd36-7bc9-4c51-acab-01483ac1078d",
+      "attempts": 0,
+      "retryAt": "2026-10-19T12:47:53.476Z",
+      "acknowledgedAt": "2026-10-19T12:48:32.703Z"
+    },
+    {
+      "sessionId": "c1f28b91-991d-4f43-af28-da7a13f9e9c1",
+      "attempts": 0,
+      "retryAt": "2026-10-19T12:57:13.313Z",
+      "acknowledgedAt": "2026-10-19T12:57:51.549Z"
+    },
+    {
+      "sessionId": "08f74ad7-ecbf-4f04-ad7f-a0f1e972b1f9",
+      "attempts": 0,
+      "retryAt": "2026-10-30T05:21:37.121Z",
+      "acknowledgedAt": "2026-10-30T05:22:07.799Z"
+    },
+    {
+      "sessionId": "dd0e9669-6c76-44d5-86d5-40ee623cd720",
+      "attempts": 0,
+      "retryAt": "2026-10-30T05:22:18.534Z",
+      "acknowledgedAt": "2026-10-30T05:23:22.180Z"
+    },
+    {
+      "sessionId": "e326b163-65c1-40be-bf54-6e2cedc1a95b",
+      "attempts": 0,
+      "retryAt": "2026-10-30T05:39:52.359Z",
+      "acknowledgedAt": "2026-10-30T05:40:30.974Z"
+    },
+    {
+      "sessionId": "ef504c01-e40e-4de3-98ab-de1bcbef4316",
+      "attempts": 0,
+      "retryAt": "2026-10-30T05:48:45.528Z"
+    }
+  ]
+}

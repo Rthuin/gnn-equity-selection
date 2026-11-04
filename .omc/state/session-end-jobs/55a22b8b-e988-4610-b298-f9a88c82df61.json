@@ -1,0 +1,358 @@
+{
+  "version": 1,
+  "jobId": "c2d4e940-7478-48d5-9c30-6b6c7522a29b",
+  "sessionId": "55a22b8b-e988-4610-b298-f9a88c82df61",
+  "scopeKey": "498975c3a3feb29e8ce1814f9d4bc9ef5baf3a87f5e4e8a2734e61a6e762fd7b",
+  "revision": 71,
+  "createdAt": "2026-10-16T14:06:41.608Z",
+  "updatedAt": "2026-10-16T14:07:20.426Z",
+  "producerGraceExpiresAt": "2026-10-16T14:07:11.609Z",
+  "bestEffortDeadlineAt": "2026-10-16T14:08:04.609Z",
+  "producers": {
+    "core": {
+      "state": "sealed",
+      "intentKey": "3ca18c535b114103a751d66314ba70429b26b660b8bc4c3fb5636d1d1cbe308a",
+      "payloadDigest": "3ca18c535b114103a751d66314ba70429b26b660b8bc4c3fb5636d1d1cbe308a",
+      "sealedAt": "2026-10-16T14:07:13.719Z",
+      "sealedBy": "recovery"
+    },
+    "wiki": {
+      "state": "no-op",
+      "sealedAt": "2026-10-16T14:06:41.651Z",
+      "sealedBy": "wiki-producer"
+    }
+  },
+  "actions": {
+    "foreground-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "08d985c0ee3bf88fd18ca756705a85dd52e56620bbed978610b029a99381f116",
+      "payload": {
+        "transcriptPath": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+        "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "transcript_path": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+          "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {},
+        "metrics": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "ended_at": "2026-10-16T14:07:12.724Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        }
+      },
+      "budgetMs": 9000,
+      "claimedAt": "2026-10-16T14:07:12.066Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "70d120c0-4a4b-4041-a218-b6ff59d3807f",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-16T14:07:21.617Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-16T14:07:13.680Z"
+    },
+    "wiki-capture": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 0,
+      "idempotencyKey": "af18a6acf4ca18508d531c8c4af25433ebe0867fc750f3f27afa4b05de61a509",
+      "payload": {
+        "transcriptPath": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+        "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "transcript_path": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+          "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000,
+      "completedAt": "2026-10-16T14:06:41.651Z"
+    },
+    "team-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "40f6d3ca9a0793d127fdf82076d40ce981192b6f1f203e3652ed332ad21d4384",
+      "payload": {
+        "transcriptPath": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+        "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "transcript_path": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+          "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {},
+        "metrics": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "ended_at": "2026-10-16T14:07:12.724Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        }
+      },
+      "budgetMs": 9000,
+      "claimedAt": "2026-10-16T14:07:13.811Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "9e845e40-dbcf-4d27-9e20-ec6f832a2bff",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-16T14:07:21.617Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-16T14:07:14.674Z"
+    },
+    "python-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "01d61dd3c387769793919a2db141cdd87d22519bdf0183e6259adf49c93f1d2c",
+      "payload": {
+        "transcriptPath": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+        "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "transcript_path": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+          "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {},
+        "metrics": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "ended_at": "2026-10-16T14:07:12.724Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        }
+      },
+      "budgetMs": 9000,
+      "claimedAt": "2026-10-16T14:07:14.740Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "be443fd7-5746-4eb3-901f-adb544058cbd",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-16T14:07:21.617Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-16T14:07:15.672Z"
+    },
+    "reply-cleanup": {
+      "class": "required",
+      "phase": "deferred-required",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "f8010e3c18eb0847108d3e70d4495812cd11eb713f77bb67f405ec708de508a0",
+      "payload": {
+        "transcriptPath": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+        "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "transcript_path": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+          "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {}
+      },
+      "budgetMs": 9000,
+      "claimedAt": "2026-10-16T14:07:15.736Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "328ac0ed-4c5a-4de9-8d64-f39b70a12405",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-16T14:07:21.617Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-16T14:07:16.565Z"
+    },
+    "callback": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "802729b9ddfc0cbbaeff33bac82fc29793a1a9746a8df66b74f37498197539ce",
+      "payload": {
+        "transcriptPath": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+        "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "transcript_path": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+          "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {},
+        "metrics": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "ended_at": "2026-10-16T14:07:12.724Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        }
+      },
+      "budgetMs": 2000,
+      "claimedAt": "2026-10-16T14:07:16.648Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "fb1a105a-f25e-4b5f-9c43-29e374d5b854",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-16T14:07:21.617Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-16T14:07:17.430Z"
+    },
+    "notification": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "3bbfc70f9ddac27494e08115bbf9079f4addd9a6fe0448a2d19aed9669575238",
+      "payload": {
+        "transcriptPath": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+        "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "transcript_path": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+          "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {},
+        "metrics": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "ended_at": "2026-10-16T14:07:12.724Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        }
+      },
+      "budgetMs": 2000,
+      "claimedAt": "2026-10-16T14:07:17.509Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "35b3cd32-ed68-46f9-a3b4-cc0b3757260f",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-16T14:07:21.617Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-16T14:07:18.424Z"
+    },
+    "openclaw": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "46bed98c04a7070f62d5796d04a9dd52500da1c38e5407f968028dfa999ae3e3",
+      "payload": {
+        "transcriptPath": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+        "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "transcript_path": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+          "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {},
+        "metrics": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "ended_at": "2026-10-16T14:07:12.724Z",
+          "reason": "prompt_input_exit",
+          "agents_spawned": 0,
+          "agents_completed": 0,
+          "modes_used": []
+        }
+      },
+      "budgetMs": 2000,
+      "claimedAt": "2026-10-16T14:07:18.533Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "c6c76125-99db-481f-beff-92c6f8603fff",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-16T14:07:21.617Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-16T14:07:19.417Z"
+    },
+    "spawn-next": {
+      "class": "best-effort",
+      "phase": "deferred-best-effort",
+      "status": "completed",
+      "attempts": 1,
+      "idempotencyKey": "c90d5417d69eb9023cad2acfdc40bd35e4ad22c6f60e4958623dc7ec7a9217ed",
+      "payload": {
+        "transcriptPath": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+        "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+        "reason": "prompt_input_exit",
+        "input": {
+          "session_id": "55a22b8b-e988-4610-b298-f9a88c82df61",
+          "transcript_path": "C:\\Users\\albat\\.claude\\projects\\D--Projects-YL-gnn-equity-selection\\55a22b8b-e988-4610-b298-f9a88c82df61.jsonl",
+          "cwd": "D:\\Projects\\YL\\gnn-equity-selection",
+          "hook_event_name": "SessionEnd",
+          "reason": "prompt_input_exit"
+        },
+        "initialTeamNames": [],
+        "openClawRouting": {}
+      },
+      "budgetMs": 2000,
+      "claimedAt": "2026-10-16T14:07:19.490Z",
+      "runner": {
+        "attempt": 1,
+        "runnerNonce": "44858907-2d15-4040-9159-cd8dc5f24281",
+        "phase": "terminal",
+        "deadlineAt": "2026-10-16T14:07:21.617Z"
+      },
+      "lastOutcomeCode": "completed",
+      "completedAt": "2026-10-16T14:07:20.272Z"
+    }
+  },
+  "owner": null,
+  "phase": "complete",
+  "recoverableFailure": {
+    "reason": "actions-settled",
+    "releasedAt": "2026-10-16T14:07:20.357Z",
+    "ownerNonce": "684ede97-b634-4de5-92e0-9d5269f6f11a"
+  },
+  "completion": {
+    "completedAt": "2026-10-16T14:07:20.357Z",
+    "terminalDigest": "64af5c17a382f869b94db6cadb3c80c5cfba3b68356512a32005cf1527778d03",
+    "terminalRevision": 70
+  }
+}
